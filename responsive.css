@@ -1,0 +1,325 @@
+@media screen and (max-width: 1090px) {
+    .hero_banner {
+      gap: 18px;
+      padding: 30px 30px 30px 30px;
+    }
+  
+    h3 {
+      font-size: 20px;
+  
+      line-height: 20px;
+      letter-spacing: 0.1px;
+    }
+  
+    .textsection_hero {
+      gap: 25px;
+    }
+  
+    .brandname {
+      font-size: 22px;
+    }
+  
+    h1 {
+      font-size: 45px;
+      line-height: 60px;
+    }
+    h4 {
+      font-size: 13px;
+    }
+    h5 {
+      font-size: 15px;
+    }
+  
+    a,
+    p {
+      font-size: 13px;
+    }
+  
+    .button {
+      font-size: 13px;
+    }
+  
+    .hero_banner_icon {
+      height: 62px;
+      max-width: 62px;
+    }
+  
+    .section6 {
+      padding: 100px 0px 100px 0px;
+    }
+  }
+  
+  @media screen and (max-width: 992px) {
+    .hero_banner_section {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .textsection_hero {
+      gap: 20px;
+    }
+  
+    .hero_banner {
+      max-width: 350px;
+    }
+  
+    .hero_banner_icon {
+      height: 55px;
+      max-width: 55px;
+    }
+  
+    .section3 {
+      padding: 80px 0px 80px 0px;
+    }
+  
+    .section3_banner_section {
+      grid-template-columns: repeat(2, 1fr);
+      
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .cart_buttons {
+      left: 18%;
+    }
+  
+    .button.transparent_button.login {
+      display: none;
+    }
+  
+    hero_banner_icon {
+      height: 50px;
+      max-width: 50px;
+    }
+  
+    .ham {
+      display: block;
+    }
+  
+    .txt {
+      width: 390px;
+    }
+  
+    .hero_banner_section {
+      margin-top: -150px;
+    }
+  
+    .hero_image {
+      display: none;
+    }
+    .section2_image img {
+      display: none;
+    }
+  
+    .nav_bar {
+      justify-content: flex-end;
+    }
+  
+    .nav_bar ul {
+      position: fixed;
+      top: 0;
+      left: -300px;
+      width: 200px;
+      height: 100%;
+      background-color: #fff2f3;
+      flex-direction: column;
+      gap: 30px;
+      z-index: 2;
+      margin-top: 60px;
+      transition: ease-in-out 0.5s;
+    }
+  
+    .section5_bannersection {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    .footer_section1 {
+      grid-template-columns: repeat(3, 1fr);
+    }
+    #ham-icon {
+      display: block;
+    }
+    #check:checked ~ .nav_bar ul {
+      left: 0;
+    }
+    #check:checked ~ label #ham-icon {
+      display: none;
+    }
+    #check:checked ~ label #close {
+      display: block;
+    
+
+    }
+   
+   
+  }
+  
+  @media screen and (max-width: 576px) {
+  
+  
+    .brandname {
+      font-size: 20px;
+  }
+  .button {
+    font-size: 12px;
+  }
+  
+    .hero_banner_section {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  
+    h6 {
+      font-size: 14px;
+    }
+  
+    h1 {
+      font-size: 30px;
+      line-height: 40px;
+    }
+  
+    h2 {
+      font-size: 35px;
+      line-height: 45px;
+    }
+  
+    .newsletter .filled_button {
+      width: 100px;
+    }
+  
+    .txt {
+      width: 150px;
+    }
+  
+    .section3_banner_section {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  
+    .section3_banner {
+      max-width: 400px;
+  }
+  
+    .cart_buttons {
+      left: 23%;
+    }
+  
+    .section4_bannersection {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  
+    .testimonials {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    .footer_section1 {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  
+  @media screen and (max-width: 320px) {
+  
+  .textsection_hero{
+    align-items: center;
+    text-align: center;
+  }
+  
+    .button {
+      padding: 10px 20px 10px 20px;
+      font-size: 10px;
+    }
+  
+    .txt {
+      width: 100px;
+  }
+  
+    .section2 {
+      padding: 70px 0px 70px 0px;
+      
+    }
+    .testimonials {
+      padding: 80px 0px 80px 0px;
+    }
+    h5 {
+      font-size: 13px;
+    }
+  
+    h6 {
+      font-size: 12px;
+    }
+    h1 {
+      font-size: 30px;
+      line-height: 50px;
+    }
+  
+    h2 {
+      font-size: 27px;
+      line-height: 42px;
+    }
+  
+    ul {
+      gap: 15px;
+    }
+    .hero_banner_section {
+      margin-top: -160px;
+    }
+  
+    .brandname {
+      font-size: 18px;
+    }
+  
+    .section2_text_section {
+        gap: 15px;
+        align-items: center;  
+    }
+  
+    .section5_bannersection {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  
+    .cart_buttons {
+      left: 12%;
+    }
+  
+    .section4 {
+      padding: 100px 0px 100px 0px;
+    }
+  
+    .section5{
+      padding: 50px 0px 50px 0px;
+    }
+  
+    .section6 {
+      padding: 100px 0px 100px 0px;
+    }
+    
+    .general_text_section {
+      padding-bottom: 80px;
+      align-items: center;
+          text-align: center;
+    }
+    .testimonials h1 {
+      font-size: 40px;
+  }
+  
+  
+  
+  .hero_banner_icon {
+    height: 40px;
+    width: 40px;
+  }
+  
+  .hero_banner {
+    max-width: 350px;
+    align-items: center;
+  }
+  
+  
+  a, p, h2 {
+   
+    text-align: center;
+  }
+  
+  h3{
+    line-height: 10px;
+    font-size: 18px;
+  }
+  
+  }
+  

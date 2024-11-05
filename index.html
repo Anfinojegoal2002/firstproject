@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
+   <link rel="stylesheet" href="responsive.css"/>
     
     <link
       rel="stylesheet"
@@ -33,20 +34,40 @@
     <header class="header">
       <div class="container">
         <div class="header_section">
-         <div class="brandname">Brandname</div>
+          <input id="check" type="checkbox" />
+          <label for="check">
+            <div>
+              <i class="fa-solid fa-bars" id="ham-icon"></i>
+              <i class="fa-solid fa-xmark" id="close"></i>
+            </div>
+          </label> 
+          <div class="brandname">Brandname</div>
           <nav class="nav_bar">
             <ul>
               <li><a href="#">Home</a></li>
-              <li><a href="#">Product</a> </li>
+              <li class="dropdown">
+                
+                <a href="#">Product</a>
+                <ul class="dropdown_menu">
+
+                  <li><a href="#">Product 1</a></li>
+                  <li><a href="#">Product 2</a></li>
+                  <li><a href="#">Product 3</a></li>
+                </ul>
+               
+              </li>
               <li><a href="#">Pricing</a></li>
               <li><a href="#">Contact</a></li>
-              </ul>
+              <li><button class="button transparent_button ham">Login</button></li>
+
+            </ul>
 
             <div class="header_buttons">
               <button class="button transparent_button login">Login</button>
+
               <button class="button filled_button arrow_icon">JOIN US</button>
-            </div>
-          </nav>
+            </div>            
+            </nav>
         </div>
       </div>
     </header>
